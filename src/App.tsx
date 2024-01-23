@@ -4,13 +4,14 @@ import './App.css';
 import './index.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
+import Random from './Components/Random';
 function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Navbar></Navbar>}>
+      
+      <Route path='/' element={<Random></Random>}/>
 
-      </Route>
     </Routes>
       
       </BrowserRouter>
